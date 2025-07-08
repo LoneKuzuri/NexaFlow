@@ -1,0 +1,72 @@
+.footer{
+    background: linear-gradient(135deg, #3a0b50b6,#a4508b);
+    color:#f3f4f6;
+    padding:4rem 1rem 2rem;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-grid{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    margin-bottom: 2rem;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo{
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: linear-gradient(45deg, #06b6d4, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: .5rem;
+}
+
+.footer-heading{
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #FFFFFF;
+}
+
+.footer-description{
+ color: #e0e0e0;
+ font-size: .95rem;
+ line-height: 1.5;
+}
+
+.footer-links{
+ display: flex;
+ flex-direction: column; /*column ma rakhchha links lai*/
+ gap: .6rem;
+}
+
+.footer-link{
+ color: #cbd5e1;
+ text-decoration: none;
+ font-size: 1rem;
+ transition: color 0.3s ease;
+}
+
+hr{
+    border:none;
+    border-top: 1px solid rgba(255,255,255, 0.2);
+    margin: 2rem 0 1rem;
+}
+.footer-bottom{
+    margin-top: 1rem;
+    /* margin-bottom: .25rem; */
+    text-align: center;
+    font-size: 1rem;
+    color: #a6aab1;
+}
