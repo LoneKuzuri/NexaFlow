@@ -5,7 +5,7 @@ import './Features.css'
 const features = [
   {
     icon: <Zap size={32} className="feature-icon" />,
-    title: 'Lightening Fast',
+    title: 'Lightning Fast',
     description: 'Blazing-fast performance.',
   },
   {

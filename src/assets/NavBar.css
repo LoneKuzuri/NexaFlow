@@ -50,9 +50,10 @@
 .nav-menu {
   display: flex;
   gap: 2rem;
-  margin-right: 25rem;
   font-size: larger;
   font-weight: bolder;
+  flex: 1;
+  justify-content: center;
 }
 
 .nav-link {
