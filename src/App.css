@@ -17,6 +17,8 @@ body {
   color: #ffffff;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
+  /* leave space for fixed navbar */
+  padding-top: 72px;
 }
 
 /* 2. Container Utility Class */

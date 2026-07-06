@@ -51,6 +51,17 @@ transition: transform 0.3s ease;
 background: linear-gradient(285deg, #ff006a, #9d00ff);
 }
 
+@media (max-width: 768px) {
+  .testimonial-section { padding: 3rem 1rem; }
+  .testimonial-content { font-size: 1rem; }
+  .testimonial-card { padding: 1.25rem; }
+}
+
+@media (max-width: 480px) {
+  .section-title { font-size: 1.5rem; }
+  .testimonial-grid { gap: 1rem; }
+}
+
 .testimonial-card:hover {
   transform: translateY(-5px) scale(1.03);
   box-shadow: 0 10px 30px rgba(168, 85, 247, 0.2);

@@ -5,13 +5,21 @@ background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 .contact-container{
  margin-bottom:1rem;
  margin-top: 3rem;
+ max-width: 1200px;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 1rem;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 2rem;
+ align-items: center;
 }
 
 .contact-image{
 max-width: 100%;
 height: auto;
 display: block;
-margin: 1rem auto 2rem;
+margin: 0 auto 0;
 animation: float 3s ease-in-out infinite;
 }
 
@@ -29,8 +37,8 @@ animation: float 3s ease-in-out infinite;
 
 
 .contact-content{
-    margin-bottom:1rem;
-    text-align: center;
+  margin-bottom:1rem;
+  text-align: left;
 }
 
 .content-title{
@@ -57,7 +65,7 @@ animation: float 3s ease-in-out infinite;
 .contact-details{
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: center;
+  text-align: left;
     font-size: 1.5rem;
     font-weight: bold;
     color:rgba(26, 115, 199, 0.829);
@@ -102,6 +110,7 @@ animation: float 3s ease-in-out infinite;
   }
 
   .contact-container {
+    grid-template-columns: 1fr;
     padding: 1.5rem;
   }
 

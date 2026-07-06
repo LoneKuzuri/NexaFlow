@@ -8,6 +8,7 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .footer-grid{
@@ -15,6 +16,12 @@
     gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     margin-bottom: 2rem;
+}
+
+@media (max-width: 480px) {
+    .footer { padding: 3rem 1rem 2rem; }
+    .footer-grid { gap: 1rem; }
+    .footer-description { font-size: 0.95rem; }
 }
 
 .footer-column{

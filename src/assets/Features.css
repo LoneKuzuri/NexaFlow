@@ -57,6 +57,22 @@ grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
  transition: all 0.3s ease;
 }
 
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .features-section { padding: 3rem 1rem; }
+  .section-title { font-size: 2rem; }
+  .section-description { font-size: 1rem; }
+  .feature-card { padding: 1.25rem; }
+  .feature-icon { margin-bottom: 0.75rem; }
+}
+
+@media (max-width: 480px) {
+  .features-grid { gap: 1rem; }
+  .section-title { font-size: 1.5rem; }
+  .feature-title { font-size: 1.125rem; }
+  .feature-description { font-size: 0.95rem; }
+}
+
 .feature-card:hover {
   background: linear-gradient(185deg, #ff115d, #5e00ee);
   transform: translateY(-5px);

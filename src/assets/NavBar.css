@@ -26,6 +26,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
+  position: relative;
 }
 
 /* Flex Layout */
@@ -79,14 +80,18 @@
 /* Mobile Menu */
 .mobile-menu {
   display: none;
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  top: 100%;
   flex-direction: column;
   gap: 0.75rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 0.5rem;
   padding: 1rem;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 12px;
   backdrop-filter: blur(20px);
+  z-index: 999;
 }
 
 .mobile-nav-link {
@@ -112,5 +117,6 @@
 
   .mobile-menu {
     display: flex;
+    justify-content: center;
   }
 }
